@@ -24,4 +24,16 @@ public class CalculatorDriver {
         int result = calculator.add(num1, num2);
         System.out.println("Sum: " + result);
     }
+
+    private void performSubtraction() {
+        System.out.println("Subtraction");
+
+        System.out.print("Enter num1: ");
+        int num1 = scanner.nextInt();
+        System.out.print("Enter num2: ");
+        int num2 = scanner.nextInt();
+
+        int result = calculator.subtract(num1, num2);
+        System.out.println("Difference: " + result);
+    }
 }
