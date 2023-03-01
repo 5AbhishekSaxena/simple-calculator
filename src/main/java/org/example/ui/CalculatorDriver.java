@@ -47,4 +47,15 @@ public class CalculatorDriver {
         System.out.println("Product: " + result);
         
     }
+    private void performDivision() {
+        
+        System.out.print("Enter num1: ");
+        int num1 = scanner.nextInt();
+        System.out.print("Enter num2: ");
+        int num2 = scanner.nextInt();
+        
+        int result = calculator.division(num1, num2);
+        System.out.println("Result: " + result);
+        
+    }
 }
