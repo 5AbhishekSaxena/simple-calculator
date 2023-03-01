@@ -36,4 +36,28 @@ public class CalculatorDriver {
         int result = calculator.subtract(num1, num2);
         System.out.println("Difference: " + result);
     }
+
+    private void performMultiplication() {
+        System.out.println("Multiplication");
+
+        System.out.print("Enter num1: ");
+        int num1 = scanner.nextInt();
+        System.out.print("Enter num2: ");
+        int num2 = scanner.nextInt();
+
+        int result = calculator.multiplication(num1, num2);
+        System.out.println("Difference: " + result);
+    }
+
+    private void performDivision() {
+        System.out.println("Division");
+
+        System.out.print("Enter num1: ");
+        int num1 = scanner.nextInt();
+        System.out.print("Enter num2: ");
+        int num2 = scanner.nextInt();
+
+        int result = calculator.division(num1, num2);
+        System.out.println("Difference: " + result);
+    }
 }
