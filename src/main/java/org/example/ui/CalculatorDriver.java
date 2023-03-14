@@ -58,7 +58,7 @@ public class CalculatorDriver {
         System.out.println("Cant Divide with Zero");
         }
         else{
-        int result = calculator.division(num1, num2);
+        double result = calculator.division(num1, num2);
         System.out.println("Division: " + result);
         }
     }
