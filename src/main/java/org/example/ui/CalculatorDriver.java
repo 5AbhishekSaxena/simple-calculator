@@ -54,9 +54,13 @@ public class CalculatorDriver {
         int num1 = scanner.nextInt();
         System.out.print("Enter num2: ");
         int num2 = scanner.nextInt();
-
+        if(num2==0){
+        System.out.println("Cant Divide with Zero");
+        }
+        else{
         int result = calculator.division(num1, num2);
         System.out.println("Division: " + result);
+        }
     }
     
 }
